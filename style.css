@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Quicksand', sans-serif;
+    height: 100%;
+}
+li{
+    list-style: none;
+}
+
+.header{
+    background-color: #e8ded2;
+    height: 90px;
+}
+
+.header-logo{
+    font-family: 'Dancing Script', cursive;
+    float: left;
+    font-size: 36px;
+    padding: 20px 40px;
+    cursor: pointer;
+}
+
+.header-list li{
+    float: left;
+    padding: 33px 50px;
+}
+
+.header-list li:hover{
+    color: whitesmoke;
+    cursor: pointer;
+
+}
+
+img{
+    width: 1170px;
+    height: 300px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+/* .top-wrapper{
+    background-image: url('brooke-lark-wMzx2nBdeng-unsplash.jpg');
+    background-repeat: no-repeat;
+} */
+
+
+.menu{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+
+.menu-title h1{
+    border-bottom-style: dashed;
+}
+
+.makanan-title{
+    margin: 20px
+}
+
+.makanan img {
+    height: 200px;
+    width: 200px
+}
+
+footer{
+    background-color: gray;
+    padding: 20px;
+    text-align: center
+}
+
+.footer-title{
+    font-size: 21px;
+}
+.copyright{
+    font-size: 9px;
+}
